@@ -106,7 +106,7 @@ var userCompareTests = []struct {
 	{
 		Contact{FirstName: "Patrick", LastName: "Lecuyer", Email: "patate2@mailinator.com"},
 		Contact{FirstName: "Patrick", LastName: "Lecuyer", Email: "patate2@mailinator.com"},
-		true,
+		false,
 	},
 	{
 		Contact{FirstName: "Patrick", LastName: "Lecuyer", Email: "patate2@mailinator.com"},
