@@ -3,8 +3,8 @@ language: go
 services: mongodb
 
 
-#before_install:
-  #- go get github.com/mattn/goveralls
+before_install:
+  - go get github.com/mattn/goveralls
 
-#script:
-  #- $HOME/gopath/bin/goveralls -service=travis-ci
+script:
+  - $HOME/gopath/bin/goveralls -service=travis-ci
